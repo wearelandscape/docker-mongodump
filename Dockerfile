@@ -1,5 +1,5 @@
-FROM mongo:2.6
-MAINTAINER Ilya Stepanov <dev@ilyastepanov.com>
+FROM mongo
+MAINTAINER Erwin Haas <erwin@wearelandscape.nl>
 
 RUN apt-get update && \
     apt-get install -y cron && \
